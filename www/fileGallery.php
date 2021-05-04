@@ -15,7 +15,7 @@ foreach ($files as $fileName) {
 
 foreach ($links as $link):
     $bigPhoto = strrchr($link, '/'); ?>
-    <a href="http://project.loc/uploades<?= $bigPhoto ?>"><img src="<?= $link ?>">&nbsp;&nbsp;</a>
+    <a href="http://project.loc/uploades<?= $bigPhoto ?>" target="_blank"><img src="<?= $link ?>">&nbsp;&nbsp;</a>
 <?php endforeach; ?>
 <br>
 <a href="/index.php">На главную</a>
